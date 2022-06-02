@@ -1,0 +1,21 @@
+#navbar-logo {
+  width: 33%;
+}
+
+@media (min-width: 992px) {
+  #navbar-logo {
+    width: 10%;
+  }
+}
+
+#content-full-height {
+  min-height: 110vh !important;
+}
+
+#content-card {
+  -webkit-box-shadow: 0px 9px 25px -3px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 9px 25px -3px rgba(0,0,0,0.35);
+  box-shadow: 0px 9px 25px -3px rgba(0,0,0,0.35);
+  border-radius: 8px;
+}
+
