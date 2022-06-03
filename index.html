@@ -23,6 +23,8 @@ min-height: 110vh !important;
     -moz-box-shadow: 0px 9px 25px -3px rgba(0,0,0,0.35);
     box-shadow: 0px 9px 25px -3px rgba(0,0,0,0.35);
     border-radius: 8px;
+    max-height: 170vh;
+    overflow: hidden; 
 }
 * {
   box-sizing: border-box;
@@ -51,10 +53,6 @@ min-height: 110vh !important;
   background-color: #eee;
 }
 
-body {
-    max-height: 170vh;
-    overflow: hidden; 
-}
 
 </style>
 <meta charset="utf-8">
@@ -80,12 +78,13 @@ body {
                             <h3 class="text-center text-primary">RejaReja Areas (Kenya)</h3>
                             <hr>
                             <p> Enter an area to check if RejaReja delivers there.</p>
-                            <form>
-                                <div class="form-group"><input class="form-control form-control-lg" type="text" id="myInput" required="" name="area" autocomplete="off" placeholder="Search area here" onkeyup="myFunction()"></div>
+                           
+                                <div class="form-group">
+                                    <input class="form-control form-control-lg" type="text" id="myInput" required="" name="area" autocomplete="off" placeholder="Search area here" onkeyup="myFunction()"></div>
                                 <div class="form-group">
                                     <hr>
                                 </div>
-                            </form>
+                            
                             <ul id="myUL">
                                 <li><a href="#">Kitengela Urwani KD</a></li>
                                 <li><a href="#">Jomvu</a></li>
